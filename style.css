@@ -405,3 +405,19 @@
     background:var(--marquee); color:var(--night); border:none;
     padding:7px 16px; border-radius:3px; cursor:pointer; font-weight:700;
   }
+
+
+  /* ===== GEO/요약 블록, 카드 시맨틱 보정 ===== */
+  h3.t-title{margin:0;}
+  .t-metric{font-size:11.5px; font-weight:600; line-height:1.35;}
+  .digest{
+    max-width:1100px; margin:26px auto 0;
+    background:var(--card); border:1px solid var(--line); border-radius:4px; padding:22px 26px;
+  }
+  .digest h2{font-family:'Black Han Sans', sans-serif; font-size:20px; margin:0 0 14px; color:var(--ink);}
+  .digest .digest-date{font-family:'JetBrains Mono', monospace; font-size:11px; color:var(--ink-soft); font-weight:400; margin-left:8px;}
+  .digest-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:22px;}
+  .digest h3{font-family:'JetBrains Mono', monospace; font-size:12px; letter-spacing:0.04em; color:var(--curtain); margin:0 0 8px;}
+  .digest ol, .digest ul{margin:0; padding-left:20px; font-size:13.5px; line-height:1.85; color:var(--ink-soft);}
+  .digest li b{color:var(--ink);}
+  .digest-src{font-size:11.5px; color:var(--ink-soft); opacity:.8; margin:10px 0 0; font-family:'JetBrains Mono', monospace;}
